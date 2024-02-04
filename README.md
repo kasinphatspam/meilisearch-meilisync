@@ -1,1 +1,1 @@
-# meilisync_demo
+# Meilisync Demo
