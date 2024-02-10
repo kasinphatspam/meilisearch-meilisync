@@ -2,7 +2,7 @@
 
 Meilisync is used to sync data between databases and Meilisearch indexes.<br />
 Installation:
-### Step 1 Installation Meilisearch with Docker Compose.
+### 🌐 Step 1 Installation Meilisearch with Docker Compose.
 ````
 services:
   meilisearch:
@@ -20,13 +20,9 @@ services:
       retries: 5
 ````
 You can get master key by create the account and open the dashboard at [meilisearch](https://cloud.meilisearch.com/login)
-<br/>
-<br/>
-<br/>
-
 _______
 
-### Step 2 Installation Meilisync with Docker Compose.
+### 🌐 Step 2 Installation Meilisync with Docker Compose.
 Create config.yml and docker-compose.yml, ensuring they are mounted with the Docker service.
 ````
 debug: true
@@ -69,13 +65,8 @@ If you're using MongoDB as the data source, you should create a progress.json fi
 {}
 ````
 to your project and mounted with the Docker service.
-<br/>
-<br/>
-<br/>
 _______
-
-
-### Step 3 Meilisync Configuration.
+### 📝 3 Meilisync Configuration.
 ##### 3.1 Progress
 You should select the progress storage to record the last index position.
 ````
@@ -124,10 +115,6 @@ The sync configuration, you can add multiple sync tasks.
 - fields  : the fields to sync, if not set, it will sync all fields.
 - plugins : the table level plugins, optional.
 ````
-<br/>
-<br/>
-<br/>
-
 _______
 
 
