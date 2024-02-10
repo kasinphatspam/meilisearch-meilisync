@@ -1,7 +1,6 @@
 # MEILISEARCH + MEILISYNC
 
 Meilisync is used to sync data between databases and Meilisearch indexes.<br />
-Installation:
 ### 🌐 Step 1 Installation Meilisearch with Docker Compose.
 ````
 services:
