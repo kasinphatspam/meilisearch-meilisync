@@ -90,8 +90,8 @@ MySQL see [asyncmy](https://github.com/long2ice/asyncmy),
 PostgreSQL see [psycopg2](https://www.psycopg.org/docs/usage.html),
 MongoDB see [motor](https://motor.readthedocs.io/en/stable/).
 
-If you choose to use MongoDB, you should open MongoDB Replica to stream the documents with Meilisync.
-**Hint: You can use MongoDB Atlas to set up the upstream easily and test your code.
+If you choose to use MongoDB, you should open MongoDB Replica to stream the documents with Meilisync.<br/>
+Hint: You can use MongoDB Atlas to set up the upstream because it's very easy to test your code, and you won't need to set up MongoDB yourself.
 
 ##### 3.3 Meilisearch configuration.
 ````
