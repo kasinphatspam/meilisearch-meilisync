@@ -116,7 +116,7 @@ The sync configuration, you can add multiple sync tasks.
 ````
 _______
 ### 🅰️ Step 4: Setup Meilisearch Admin UI
-We will use open source for easier and faster implementation: https://github.com/riccox/meilisearch-ui?ref=producthunt" <br/>
+We will use open source for easier and faster implementation: https://github.com/riccox/meilisearch-ui?ref=producthunt <br/>
 
 Docker
 ````
