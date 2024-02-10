@@ -1,7 +1,7 @@
 # MEILISEARCH + MEILISYNC
 
 Meilisync is used to sync data between databases and Meilisearch indexes.<br />
-### 🌐 Step 1 Installation Meilisearch with Docker Compose.
+### 🌐 Step 1: Installation Meilisearch with Docker Compose.
 ````
 services:
   meilisearch:
@@ -21,7 +21,7 @@ services:
 You can get master key by create the account and open the dashboard at [meilisearch](https://cloud.meilisearch.com/login)
 _______
 
-### 🌐 Step 2 Installation Meilisync with Docker Compose.
+### 🌐 Step 2: Installation Meilisync with Docker Compose.
 Create config.yml and docker-compose.yml, ensuring they are mounted with the Docker service.
 ````
 debug: true
@@ -65,7 +65,7 @@ If you're using MongoDB as the data source, you should create a progress.json fi
 ````
 to your project and mounted with the Docker service.
 _______
-### 📝 3 Meilisync Configuration.
+### 📝 Step 3: Meilisync Configuration.
 ##### 3.1 Progress
 You should select the progress storage to record the last index position.
 ````
@@ -115,11 +115,29 @@ The sync configuration, you can add multiple sync tasks.
 - plugins : the table level plugins, optional.
 ````
 _______
+### 🅰️ Step 4: Setup Meilisearch Admin UI
+We will use open source for easier and faster implementation: https://github.com/riccox/meilisearch-ui?ref=producthunt" <br/>
+
+Docker
+````
+docker pull riccoxie/meilisearch-ui:latest
+
+docker run -d --restart=always --name="meilisearch-ui" -p <your-port>:24900 riccoxie/meilisearch-ui:latest
+````
 
 
+For Development
+````
+git clone git@github.com:riccox/meilisearch-ui.git
 
+cd meilisearch-ui
 
+pnpm install
 
+pnpm run dev
+````
+_______
+### 💻 Step 5: Setup Instantsearch (Front-end)
 
 
 
