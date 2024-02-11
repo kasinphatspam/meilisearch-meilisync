@@ -124,6 +124,13 @@ docker pull riccoxie/meilisearch-ui:latest
 
 docker run -d --restart=always --name="meilisearch-ui" -p <your-port>:24900 riccoxie/meilisearch-ui:latest
 ````
+or use Docker Compose
+````
+meilisearch-admin:
+    image: riccoxie/meilisearch-ui:latest
+    ports:
+      - "24900:24900"
+````
 
 
 For Development
