@@ -1,0 +1,24 @@
+debug: true
+plugins:
+  - meilisync.plugin.Plugin
+progress:
+  type:
+source:
+  type: 
+  host: 
+  username: 
+  password: 
+  database: 
+meilisearch:
+  api_url: 
+  api_key: 
+  insert_size: 
+  insert_interval: 
+sync:
+  - table: 
+    index: 
+    pk: 
+    full: 
+sentry:
+  dsn: ""
+  environment: "production"
