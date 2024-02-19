@@ -114,6 +114,8 @@ The sync configuration, you can add multiple sync tasks.
 - fields  : the fields to sync, if not set, it will sync all fields.
 - plugins : the table level plugins, optional.
 ````
+
+Important! Meilisync will encounter an error upon starting Docker as it cannot locate the indexes in Meilisearch. However, you can add indexes in step 4 after the setup is completed
 _______
 ### 🅰️ Step 4: Setup Meilisearch Admin UI
 We will use open source for easier and faster implementation: https://github.com/riccox/meilisearch-ui?ref=producthunt <br/>
